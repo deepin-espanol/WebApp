@@ -6,12 +6,18 @@
 
 DWIDGET_USE_NAMESPACE
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(QString szTitle,
+                       QString szUrl,
+                       int nWidth,
+                       int nHeight,
+                       QWidget *parent)
     : DMainWindow(parent)
 {
-    w = new Widget;
+    w = new Widget(szUrl);
 
-    resize(w->size());
+    //resize(w->size());
+    setFixedSize(nWidth, nHeight);
+    titlebar()->setTitle(szTitle);
 
     setCentralWidget(w);
     centralWidget()->layout()->setContentsMargins(0, 0, 0, 0);
