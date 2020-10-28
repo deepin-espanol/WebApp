@@ -20,7 +20,7 @@ HEADERS  += mainwindow.h \
 
 FORMS += widget.ui
 
-TRANSLATIONS += WebApp_es_ES.ts \
-         WebApp_zh_CN.ts
+TRANSLATIONS += translate/WebApp_es_ES.ts \
+         translate/WebApp_zh_CN.ts
 
 RESOURCES += IMGs.qrc
