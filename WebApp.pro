@@ -15,8 +15,12 @@ SOURCES += main.cpp\
         widget.cpp
 
 HEADERS  += mainwindow.h \
+         globaldefine.h \
          widget.h
 
 FORMS += widget.ui
+
+TRANSLATIONS += \
+    WebApp_zh_CN.ts
 
 RESOURCES += IMGs.qrc

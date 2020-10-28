@@ -35,19 +35,19 @@
       <number>0</number>
      </property>
      <item>
-      <widget class="QWebEngineView" name="webEngineView">
+      <widget class="QWebEngineView" name="webEngineView" native="true">
        <property name="enabled">
         <bool>true</bool>
        </property>
        <property name="autoFillBackground">
         <bool>false</bool>
        </property>
-       <property name="url">
+       <property name="url" stdset="0">
         <url>
-         <string>https://deepinenespañol.org/</string>
+         <string>https://www.baidu.com</string>
         </url>
        </property>
-       <property name="zoomFactor">
+       <property name="zoomFactor" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
