@@ -7,10 +7,10 @@ WebApp with DTK look and feel
 
 # Requirements
 
-qtwebengine5-dev
+	 qtwebengine5-dev
 
 # Install
 
-mkdir build && cd build
-qmake ..
-make
+	 mkdir build && cd build
+	 qmake .. 
+	 make
