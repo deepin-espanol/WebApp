@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/go-previous-24.svg</file>
+        <file>images/go-next-24.svg</file>
+        <file>images/view-refresh.svg</file>
+        <file>help/help.html</file>
+        <file>images/Logo-Racoon.png</file>
+        <file>images/logo.svg</file>
+    </qresource>
+</RCC>

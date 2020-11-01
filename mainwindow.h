@@ -20,8 +20,13 @@ public:
                QWidget *parent = 0);
     ~MainWindow();
 
+    void setIcon(QString);
+
+signals:
+    void sigQuit();
+
 private:
-    Widget *w;
+    Widget *m_widget;
 };
 
 #endif // MAINWINDOW_H
