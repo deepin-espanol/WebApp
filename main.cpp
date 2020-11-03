@@ -169,7 +169,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    // Prioridad en el nivel de línea de comando, anular los ajustes del archivo de configuración
+    // 命令行级别优先, 覆盖配置文件的设置
     if (parser.isSet(optTitle))
     {
         szTitle = parser.value(optTitle);
@@ -209,34 +209,48 @@ int main(int argc, char *argv[])
         u16sslPort = parser.value(optSSLPort).toUInt();
     }
 #endif
-    if (!parser.isSet(optParser))
-    {
-        do
-        {
-            // La más alta prioridad en una jerarquía de orden fijo
-#if SSL_SERVER
-            if (argc != 10)
-#else
-            if (argc != 9)
-#endif
-            {
-                break;
-            }
 
+    // 没设置 -p 并且参数个数>1 并且第一个参数不是-开始的
+    if (!parser.isSet(optParser) && argc > 1 && !QString(argv[1]).startsWith("-"))
+    {
+        // 按照固定顺序级别最优先
+        if (argc > 1)
+        {
             szTitle = argv[1];
+        }
+        if (argc > 2)
+        {
             szUrl = argv[2];
+        }
+        if (argc > 3)
+        {
             width = QString(argv[3]).toInt();
+        }
+        if (argc > 4)
+        {
             height = QString(argv[4]).toInt();
+        }
+        if (argc > 5)
+        {
             szIcon = QString(argv[5]);
+        }
+        if (argc > 6)
             szDesc = QString("%1<br/><br/>%2").arg(QString(argv[6]))
                      .arg(szDefaultDesc);;
+        if (argc > 7)
+        {
             szRootPath = QString(argv[7]);
-            u16Port = QString(argv[8]).toUInt();
-#if SSL_SERVER
-            u16sslPort = QString(argv[9]).toUInt();
-#endif
         }
-        while (false);
+        if (argc > 8)
+        {
+            u16Port = QString(argv[8]).toUInt();
+        }
+#if SSL_SERVER
+        if (argc > 9)
+        {
+            u16sslPort = QString(argv[9]).toUInt();
+        }
+#endif
     }
 
     MainWindow w(szTitle, szUrl, width, height);
