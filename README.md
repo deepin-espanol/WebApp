@@ -73,4 +73,4 @@ Parameters:
 
 ## example
 
-./WepApp -t "Deepin en Español" -u https://deepinenespañol.org/
+./WebApp -t "Deepin en Español" -u https://deepinenespañol.org/
