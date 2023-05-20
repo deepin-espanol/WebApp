@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="view-refresh.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
   <metadata
      id="metadata14">
     <rdf:RDF>
@@ -36,36 +36,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="860"
+     inkscape:window-width="1280"
+     inkscape:window-height="636"
      id="namedview10"
      showgrid="false"
      inkscape:zoom="9.8333333"
-     inkscape:cx="12"
-     inkscape:cy="12"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg8" />
-  <g
-     transform="matrix(0.76755722,0,0,0.76755722,6.4237288,6.8304702)"
-     id="g6"
-     style="fill:#536076">
-    <path
-       d="M 7,14 C 3.1340068,14 0,10.865993 0,7 0,3.1340068 3.1340068,0 7,0 8.9756701,0 10.760175,0.81847727 12.032933,2.1348516 L 12.452,4 12.197157,3.9997404 C 11.159691,2.2064795 9.2207399,1 7,1 3.6862915,1 1,3.6862915 1,7 c 0,3.313709 2.6862915,6 6,6 2.6121814,0 4.83448,-1.669288 5.658346,-3.9993141 L 13.710121,9 C 12.849572,11.891489 10.171021,14 7,14 Z"
-       id="path2"
-       inkscape:connector-curvature="0" />
-    <polygon
-       points="9.214,5.518 12.75,1.982 16.286,5.518 "
-       transform="rotate(135,12.75,3.75)"
-       id="polygon4" />
-  </g>
-  <rect
-     style="fill:#000000;fill-opacity:0;stroke:#536076;stroke-opacity:1"
-     id="rect12"
-     width="17"
-     height="17"
-     x="3.5"
-     y="3.5"
-     ry="3.1640031" />
+     inkscape:cx="24.374231"
+     inkscape:cy="12.521814"
+     inkscape:window-x="574"
+     inkscape:window-y="94"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0" />
+  <path
+     fill-rule="evenodd"
+     d="m 20.106201,2.9236452 v 6.971568 H 13.25158 L 16.75803,6.328418 C 15.47145,5.2782635 13.84559,4.6665369 12.109143,4.6665369 c -4.1011771,0 -7.4258383,3.3813833 -7.4258383,7.5525321 0,4.171146 3.3246612,7.55253 7.4258383,7.55253 3.035728,0 5.730903,-1.86976 6.868404,-4.675978 v 0 l 1.056201,0.442866 c -1.312403,3.237695 -4.42212,5.39504 -7.924605,5.39504 -4.7321274,0 -8.5682751,-3.901596 -8.5682751,-8.714458 0,-4.8128637 3.8361477,-8.7144599 8.5682751,-8.7144599 2.047428,0 3.961688,0.7371918 5.461037,1.9980647 z"
+     id="path833"
+     style="stroke-width:1.15215;fill:#1898de;fill-opacity:1" />
 </svg>

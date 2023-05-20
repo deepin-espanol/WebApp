@@ -13,7 +13,7 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="go-previous-24.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -36,28 +36,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="19.666667"
-     inkscape:cx="13.013548"
-     inkscape:cy="14.340436"
-     inkscape:window-x="462"
-     inkscape:window-y="485"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg4" />
-  <path
-     fill="#536076"
-     d="M10.138807,3.52000025 L10.138,12.5230002 L14.6066017,8.05523757 L15.3137085,8.76234435 L9.65685425,14.4191986 L4,8.76234435 L4.70710678,8.05523757 L9.138,12.4870002 L9.138807,3.52000025 L10.138807,3.52000025 Z"
-     transform="rotate(90 9.657 11.518)"
-     id="path2" />
-  <rect
-     style="fill:#000000;fill-opacity:0;stroke:#536076;stroke-opacity:1"
-     id="rect12"
-     width="17"
-     height="17"
-     x="3.5"
-     y="3.1949153"
-     ry="3.1640031" />
+     inkscape:zoom="27.812867"
+     inkscape:cx="9.241007"
+     inkscape:cy="13.431545"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
+  <polygon
+     fill-rule="evenodd"
+     points="5.793,0.622 6.5,1.329 1.818,6.011 6.5,10.693 5.793,11.4 0.404,6.011 "
+     transform="matrix(1.5703754,0,0,-1.6770284,6.1213697,21.598472)"
+     id="polygon831"
+     style="fill:#1898de;fill-opacity:1;stroke-width:6.66923;stroke-miterlimit:4;stroke-dasharray:none" />
 </svg>

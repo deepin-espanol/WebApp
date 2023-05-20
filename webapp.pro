@@ -1,6 +1,6 @@
 QT += core widgets gui webengine webenginewidgets svg concurrent
 
-greaterThan(QT_MAJOR_VERSION, 5): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 6): QT += widgets
 
 TEMPLATE = app
 

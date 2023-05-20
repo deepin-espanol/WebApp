@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 
     dialog.setDescription(szDefaultDesc);
     //Version
-    dialog.setVersion(DApplication::buildVersion(QString("%1 %2").arg(QObject::tr("Version")).arg("1.0")));
+    dialog.setVersion(DApplication::buildVersion(QString("%1 %2").arg(QObject::tr("Version")).arg("0.1")));
     //Website name
     dialog.setWebsiteName("deepinenespañol.org");
     //Website link
